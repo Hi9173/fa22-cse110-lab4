@@ -13,3 +13,5 @@
 7.Line 14 will print the number 150, as the variable 'let finalPrice' has a block scope and it is defined in the function block. Thus 'finalPrice' can be access within anywhere of the function, and for similar reason in question number 3, 'finalPrice' will be storing 150 when exiting the loop.
 
 8.The function will return [50, 100, 150], for the similar reason in question 4. The only difference in question 1-4 and question 5-8 is that all the variables are 'let' instead of 'var'. But notice 'discounted' and 'finalPrice' are defined in the function block scope, so even inside the for loop, the two variables can still be access and modified, thus the function will return the same vector as question 4.
+
+9.
