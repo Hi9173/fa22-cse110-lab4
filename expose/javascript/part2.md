@@ -18,4 +18,30 @@
 
 10.Line 12 will print the number 3, as at the beginning 'const length' is defined to be the length of the input array, which in this case is 3. And after that, the variable was not modified so when it gets printed, it will print a 3.
 
-11.
+11.The function will return [50, 100, 150], for the similar reason in question 4. Notice even though the variable 'discounted' is defined to be a 'const' variable, it does not mean it cannot be modified but instead just means it cannot be reassign. In this case, elements were added to the 'discounted' array via push, which is valid, hence the function will return [50, 100, 150].
+
+12A.To access the name: student.name
+12B.To access the Grad Year: student["Grad Year"]
+12C.To call the function: student.greeting
+12D.To access name of favorite teacher: student["Favorite Teacher"].name
+12E.To access index zero: student.courseload[0]
+
+13A.The output is 32, because '3' is view as a string and '3'+2 is view as concatenation of string
+13B.The output is 1, because '3' is type changed to number thus 3-2=1
+13C.The output is 3, as null represents the absence of value in an object
+13D.The output is 3null, as '3' is a string and null is view as concatenation of string
+13E.The output is 4, as 'true' is valued as 1, thus 1+3=4
+13F.The output is 0, as 'false' is valued as 0, and 0+null is like question 13C, resulting 0
+13G.The output is 3undefined, for similar reason in question 13D
+13H.The output is NaN, as 'undefined' is used to declared something that is not assign, hence cannot be arithmetic
+
+14A.The output is True, because the string '2' becomes the number 2
+14B.The output is False, because we first compare the first character, and '2' < '1' is false
+14C.The output is True, because the string '2' becomes the number 2
+14D.The output is False, because the operator '===' compares without conversion
+14E.The output is False, because 'true' is valued as 1
+14F.The output is True, as 'Boolean(2)' is evaluated as 'true', thus 'true' === 'true' holds
+
+15.The difference between '==' and '===' is that '==' convertes the values to numbers while '===' is strictly comparing without conversion
+
+16.
