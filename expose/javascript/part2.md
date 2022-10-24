@@ -44,4 +44,6 @@
 
 15.The difference between '==' and '===' is that '==' convertes the values to numbers while '===' is strictly comparing without conversion
 
-16.
+17.The function will return the array [2,4,6] as a result. In order to get to this result, we need to walk through the function. The function 'modifyArray' takes two inputs, an array and a function. First, 'modifyArray' creates an empty array, namely 'newArr'. Then it has a for loop that traverse through every element in the input arrary. While traversing, it access the element of the input array, then use that element as input to the input function. In this case, the input function returns two times the value. Lastly it pushes the two times value element to the 'newArr', and repeat this step until all elements in the input array are accessed.
+
+19.The output is 1432. This is because 'setTimeout' calls the function after x seconds. In this case, 1 and 4 is printed first, then 3 is printed after 0 millisecond, and 2 is printed after 1000 millisecond.
